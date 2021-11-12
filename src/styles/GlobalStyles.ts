@@ -19,6 +19,12 @@ export default createGlobalStyle`
     border: 0;
     background: none;
     font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   html {
