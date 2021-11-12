@@ -3,6 +3,8 @@ import { CgShoppingCart } from 'react-icons/cg';
 
 import logo from '../../assets/logoJussiVectorGreen.svg';
 
+import SearchBar from '../SearchBar';
+
 import { Container, Content, Menu, ProfileContainer } from './styles';
 
 const Header: React.FC = () => {
@@ -21,8 +23,9 @@ const Header: React.FC = () => {
           </ul>
         </Menu>
         <ProfileContainer>
+          <SearchBar />
           <a href="/login">Login</a>
-          <CgShoppingCart size={22} />
+          <CgShoppingCart size={32} />
         </ProfileContainer>
       </Content>
     </Container>

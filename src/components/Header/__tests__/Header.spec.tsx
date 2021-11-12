@@ -12,17 +12,17 @@ describe('Header Component', () => {
         "baseElement": <body>
           <div>
             <header
-              class="sc-bdvvtL eLKUGd"
+              class="sc-gsDKAQ ePwAsU"
             >
               <img
                 alt="Jüssi Logo"
                 src="logoJussiVectorGreen.svg"
               />
               <div
-                class="sc-gsDKAQ bFhWKE"
+                class="sc-dkPtRN bBJVyc"
               >
                 <nav
-                  class="sc-dkPtRN fTkLQp"
+                  class="sc-hKwDye dTehpa"
                 >
                   <ul>
                     <li>
@@ -42,8 +42,29 @@ describe('Header Component', () => {
                   </ul>
                 </nav>
                 <div
-                  class="sc-hKwDye fiPdFg"
+                  class="sc-eCImPb beGlFc"
                 >
+                  <div
+                    class="sc-bdvvtL ieGvXA"
+                  >
+                    <input
+                      placeholder="Buscar"
+                      type="text"
+                    />
+                    <svg
+                      fill="currentColor"
+                      height="16"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                      />
+                    </svg>
+                  </div>
                   <a
                     href="/login"
                   >
@@ -51,11 +72,11 @@ describe('Header Component', () => {
                   </a>
                   <svg
                     fill="none"
-                    height="22"
+                    height="32"
                     stroke="currentColor"
                     stroke-width="0"
                     viewBox="0 0 24 24"
-                    width="22"
+                    width="32"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -80,17 +101,17 @@ describe('Header Component', () => {
         </body>,
         "container": <div>
           <header
-            class="sc-bdvvtL eLKUGd"
+            class="sc-gsDKAQ ePwAsU"
           >
             <img
               alt="Jüssi Logo"
               src="logoJussiVectorGreen.svg"
             />
             <div
-              class="sc-gsDKAQ bFhWKE"
+              class="sc-dkPtRN bBJVyc"
             >
               <nav
-                class="sc-dkPtRN fTkLQp"
+                class="sc-hKwDye dTehpa"
               >
                 <ul>
                   <li>
@@ -110,8 +131,29 @@ describe('Header Component', () => {
                 </ul>
               </nav>
               <div
-                class="sc-hKwDye fiPdFg"
+                class="sc-eCImPb beGlFc"
               >
+                <div
+                  class="sc-bdvvtL ieGvXA"
+                >
+                  <input
+                    placeholder="Buscar"
+                    type="text"
+                  />
+                  <svg
+                    fill="currentColor"
+                    height="16"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                    />
+                  </svg>
+                </div>
                 <a
                   href="/login"
                 >
@@ -119,11 +161,11 @@ describe('Header Component', () => {
                 </a>
                 <svg
                   fill="none"
-                  height="22"
+                  height="32"
                   stroke="currentColor"
                   stroke-width="0"
                   viewBox="0 0 24 24"
-                  width="22"
+                  width="32"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
