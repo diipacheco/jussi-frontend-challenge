@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 
 import refrigerator from '../../assets/refrigerator.png';
 import beater from '../../assets/beater.png';
@@ -7,26 +7,23 @@ import whiskey from '../../assets/whiskey.png';
 import { Container, Content, Card, CardButton } from './styles';
 
 const Banner: React.FC = () => {
-  const cardsContent = useMemo(
-    () => [
-      {
-        id: 1,
-        image: beater,
-        buttonText: 'Comprar em 2x',
-      },
-      {
-        id: 2,
-        image: refrigerator,
-        buttonText: 'Mais Detalhes',
-      },
-      {
-        id: 3,
-        image: whiskey,
-        buttonText: 'Adicionar à sacola',
-      },
-    ],
-    [],
-  );
+  const cardsContent = [
+    {
+      id: 1,
+      image: beater,
+      buttonText: 'Comprar em 2x',
+    },
+    {
+      id: 2,
+      image: refrigerator,
+      buttonText: 'Mais Detalhes',
+    },
+    {
+      id: 3,
+      image: whiskey,
+      buttonText: 'Adicionar à sacola',
+    },
+  ];
 
   return (
     <Container>
