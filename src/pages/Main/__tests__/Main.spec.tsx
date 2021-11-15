@@ -12,7 +12,7 @@ describe('Main Component', () => {
         "baseElement": <body>
           <div>
             <main
-              class="sc-jrQzAO lnuHQw"
+              class="sc-egiyK cCOSKA"
             >
               <header
                 class="sc-gsDKAQ ePwAsU"
@@ -193,12 +193,189 @@ describe('Main Component', () => {
                   src="logo-thebar.svg"
                 />
               </div>
+              <section
+                class="sc-iqseJM ehDDxL"
+              >
+                <div
+                  class="sc-crHmcD gvhnUu"
+                >
+                  <h1>
+                    <strong>
+                      /
+                    </strong>
+                    <strong>
+                      /
+                    </strong>
+                    NOSSAS SOLUÇÕES
+                  </h1>
+                  <div
+                    class="card-container"
+                  >
+                    <div
+                      class="sc-jrQzAO gxqRcI"
+                    >
+                      <div
+                        class="sc-kDTinF gkSQG"
+                      >
+                        <strong>
+                          P1
+                        </strong>
+                      </div>
+                      <p
+                        class="product-title"
+                      >
+                        Nome do Produto #1
+                      </p>
+                      <p
+                        class="product-description"
+                      >
+                        Descrição do produto #1
+                      </p>
+                      <ul
+                        class="features-list"
+                      >
+                        <li>
+                          .Feature 1
+                        </li>
+                        <li>
+                          .Feature 2
+                        </li>
+                        <li>
+                          .Feature 3
+                        </li>
+                      </ul>
+                      <button
+                        type="button"
+                      >
+                        Ver solução
+                      </button>
+                    </div>
+                    <div
+                      class="sc-jrQzAO gxqRcI"
+                    >
+                      <div
+                        class="sc-kDTinF gkSQG"
+                      >
+                        <strong>
+                          P2
+                        </strong>
+                      </div>
+                      <p
+                        class="product-title"
+                      >
+                        Nome do Produto #2
+                      </p>
+                      <p
+                        class="product-description"
+                      >
+                        Descrição do produto #2
+                      </p>
+                      <ul
+                        class="features-list"
+                      >
+                        <li>
+                          .Feature 1
+                        </li>
+                        <li>
+                          .Feature 2
+                        </li>
+                        <li>
+                          .Feature 3
+                        </li>
+                      </ul>
+                      <button
+                        type="button"
+                      >
+                        Ver solução
+                      </button>
+                    </div>
+                    <div
+                      class="sc-jrQzAO gxqRcI"
+                    >
+                      <div
+                        class="sc-kDTinF gkSQG"
+                      >
+                        <strong>
+                          P3
+                        </strong>
+                      </div>
+                      <p
+                        class="product-title"
+                      >
+                        Nome do Produto #3
+                      </p>
+                      <p
+                        class="product-description"
+                      >
+                        Descrição do produto #3
+                      </p>
+                      <ul
+                        class="features-list"
+                      >
+                        <li>
+                          .Feature 1
+                        </li>
+                        <li>
+                          .Feature 2
+                        </li>
+                        <li>
+                          .Feature 3
+                        </li>
+                      </ul>
+                      <button
+                        type="button"
+                      >
+                        Ver solução
+                      </button>
+                    </div>
+                    <div
+                      class="sc-jrQzAO gxqRcI"
+                    >
+                      <div
+                        class="sc-kDTinF gkSQG"
+                      >
+                        <strong>
+                          P4
+                        </strong>
+                      </div>
+                      <p
+                        class="product-title"
+                      >
+                        Nome do Produto #4
+                      </p>
+                      <p
+                        class="product-description"
+                      >
+                        Descrição do produto #4
+                      </p>
+                      <ul
+                        class="features-list"
+                      >
+                        <li>
+                          .Feature 1
+                        </li>
+                        <li>
+                          .Feature 2
+                        </li>
+                        <li>
+                          .Feature 3
+                        </li>
+                      </ul>
+                      <button
+                        type="button"
+                      >
+                        Ver solução
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </section>
             </main>
           </div>
         </body>,
         "container": <div>
           <main
-            class="sc-jrQzAO lnuHQw"
+            class="sc-egiyK cCOSKA"
           >
             <header
               class="sc-gsDKAQ ePwAsU"
@@ -379,6 +556,183 @@ describe('Main Component', () => {
                 src="logo-thebar.svg"
               />
             </div>
+            <section
+              class="sc-iqseJM ehDDxL"
+            >
+              <div
+                class="sc-crHmcD gvhnUu"
+              >
+                <h1>
+                  <strong>
+                    /
+                  </strong>
+                  <strong>
+                    /
+                  </strong>
+                  NOSSAS SOLUÇÕES
+                </h1>
+                <div
+                  class="card-container"
+                >
+                  <div
+                    class="sc-jrQzAO gxqRcI"
+                  >
+                    <div
+                      class="sc-kDTinF gkSQG"
+                    >
+                      <strong>
+                        P1
+                      </strong>
+                    </div>
+                    <p
+                      class="product-title"
+                    >
+                      Nome do Produto #1
+                    </p>
+                    <p
+                      class="product-description"
+                    >
+                      Descrição do produto #1
+                    </p>
+                    <ul
+                      class="features-list"
+                    >
+                      <li>
+                        .Feature 1
+                      </li>
+                      <li>
+                        .Feature 2
+                      </li>
+                      <li>
+                        .Feature 3
+                      </li>
+                    </ul>
+                    <button
+                      type="button"
+                    >
+                      Ver solução
+                    </button>
+                  </div>
+                  <div
+                    class="sc-jrQzAO gxqRcI"
+                  >
+                    <div
+                      class="sc-kDTinF gkSQG"
+                    >
+                      <strong>
+                        P2
+                      </strong>
+                    </div>
+                    <p
+                      class="product-title"
+                    >
+                      Nome do Produto #2
+                    </p>
+                    <p
+                      class="product-description"
+                    >
+                      Descrição do produto #2
+                    </p>
+                    <ul
+                      class="features-list"
+                    >
+                      <li>
+                        .Feature 1
+                      </li>
+                      <li>
+                        .Feature 2
+                      </li>
+                      <li>
+                        .Feature 3
+                      </li>
+                    </ul>
+                    <button
+                      type="button"
+                    >
+                      Ver solução
+                    </button>
+                  </div>
+                  <div
+                    class="sc-jrQzAO gxqRcI"
+                  >
+                    <div
+                      class="sc-kDTinF gkSQG"
+                    >
+                      <strong>
+                        P3
+                      </strong>
+                    </div>
+                    <p
+                      class="product-title"
+                    >
+                      Nome do Produto #3
+                    </p>
+                    <p
+                      class="product-description"
+                    >
+                      Descrição do produto #3
+                    </p>
+                    <ul
+                      class="features-list"
+                    >
+                      <li>
+                        .Feature 1
+                      </li>
+                      <li>
+                        .Feature 2
+                      </li>
+                      <li>
+                        .Feature 3
+                      </li>
+                    </ul>
+                    <button
+                      type="button"
+                    >
+                      Ver solução
+                    </button>
+                  </div>
+                  <div
+                    class="sc-jrQzAO gxqRcI"
+                  >
+                    <div
+                      class="sc-kDTinF gkSQG"
+                    >
+                      <strong>
+                        P4
+                      </strong>
+                    </div>
+                    <p
+                      class="product-title"
+                    >
+                      Nome do Produto #4
+                    </p>
+                    <p
+                      class="product-description"
+                    >
+                      Descrição do produto #4
+                    </p>
+                    <ul
+                      class="features-list"
+                    >
+                      <li>
+                        .Feature 1
+                      </li>
+                      <li>
+                        .Feature 2
+                      </li>
+                      <li>
+                        .Feature 3
+                      </li>
+                    </ul>
+                    <button
+                      type="button"
+                    >
+                      Ver solução
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
           </main>
         </div>,
         "debug": [Function],

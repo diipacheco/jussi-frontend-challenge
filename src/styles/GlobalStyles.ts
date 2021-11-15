@@ -40,5 +40,6 @@ export default createGlobalStyle`
     --white: #FFFF;
     --black: #000000;
     --grey:  #F2F2F2;
+    --dark-grey: #5B5B5B;
   }
 `;
