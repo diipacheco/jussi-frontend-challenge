@@ -12,7 +12,7 @@ describe('Main Component', () => {
         "baseElement": <body>
           <div>
             <main
-              class="sc-pVTFL dMzYpF"
+              class="sc-jrQzAO lnuHQw"
             >
               <header
                 class="sc-gsDKAQ ePwAsU"
@@ -166,12 +166,39 @@ describe('Main Component', () => {
                   </div>
                 </section>
               </div>
+              <div
+                class="sc-pVTFL gta-dls"
+              >
+                <p>
+                  Nossas principais lojas VTEX
+                </p>
+                <img
+                  alt="Seta para direita"
+                  src="arrow-right.svg"
+                />
+                <img
+                  alt="Logo da Brastemp"
+                  src="logo-brastemp.svg"
+                />
+                <img
+                  alt="Logo da Compra Certa"
+                  src="logo-compra-certa.svg"
+                />
+                <img
+                  alt="Logo da Consul"
+                  src="logo-consul.svg"
+                />
+                <img
+                  alt="Logo da The Bar"
+                  src="logo-thebar.svg"
+                />
+              </div>
             </main>
           </div>
         </body>,
         "container": <div>
           <main
-            class="sc-pVTFL dMzYpF"
+            class="sc-jrQzAO lnuHQw"
           >
             <header
               class="sc-gsDKAQ ePwAsU"
@@ -324,6 +351,33 @@ describe('Main Component', () => {
                   </div>
                 </div>
               </section>
+            </div>
+            <div
+              class="sc-pVTFL gta-dls"
+            >
+              <p>
+                Nossas principais lojas VTEX
+              </p>
+              <img
+                alt="Seta para direita"
+                src="arrow-right.svg"
+              />
+              <img
+                alt="Logo da Brastemp"
+                src="logo-brastemp.svg"
+              />
+              <img
+                alt="Logo da Compra Certa"
+                src="logo-compra-certa.svg"
+              />
+              <img
+                alt="Logo da Consul"
+                src="logo-consul.svg"
+              />
+              <img
+                alt="Logo da The Bar"
+                src="logo-thebar.svg"
+              />
             </div>
           </main>
         </div>,
