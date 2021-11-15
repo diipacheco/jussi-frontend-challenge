@@ -12,7 +12,7 @@ describe('Main Component', () => {
         "baseElement": <body>
           <div>
             <main
-              class="sc-jRQBWg oJbuO"
+              class="sc-pVTFL dMzYpF"
             >
               <header
                 class="sc-gsDKAQ ePwAsU"
@@ -100,12 +100,78 @@ describe('Main Component', () => {
                   </div>
                 </div>
               </header>
+              <div
+                class="sc-jRQBWg gGVfJW"
+              >
+                <section
+                  class="sc-gKclnd gHyZyT"
+                >
+                  <div
+                    class="text-column"
+                  >
+                    <h1>
+                      CRIAMOS LOJAS QUE VENDEM MAIS.
+                    </h1>
+                    <p>
+                      A Jüssi é especialista na criação de lojas usando a plataforma VTEX. Precisa criar sua loja ou migrar de plataforma?
+                    </p>
+                    <button
+                      type="button"
+                    >
+                      Veja nossas soluções
+                    </button>
+                  </div>
+                  <div
+                    class="cards-column"
+                  >
+                    <div
+                      class="sc-iCfMLu jacQNv"
+                    >
+                      <img
+                        alt="Imagem do produto 1"
+                        src="beater.png"
+                      />
+                      <button
+                        class="sc-furwcr izUqLD"
+                      >
+                        Comprar em 2x
+                      </button>
+                    </div>
+                    <div
+                      class="sc-iCfMLu jacQNv"
+                    >
+                      <img
+                        alt="Imagem do produto 2"
+                        src="refrigerator.png"
+                      />
+                      <button
+                        class="sc-furwcr izUqLD"
+                      >
+                        Mais Detalhes
+                      </button>
+                    </div>
+                    <div
+                      class="sc-iCfMLu jacQNv"
+                    >
+                      <img
+                        alt="Imagem do produto 3"
+                        src="whiskey.png"
+                      />
+                      <button
+                        class="sc-furwcr izUqLD"
+                      >
+                        Adicionar à sacola
+                      </button>
+                    </div>
+                  </div>
+                </section>
+              </div>
             </main>
           </div>
         </body>,
         "container": <div>
           <main
-            class="sc-jRQBWg oJbuO"
+            class="sc-pVTFL dMzYpF"
           >
             <header
               class="sc-gsDKAQ ePwAsU"
@@ -193,6 +259,72 @@ describe('Main Component', () => {
                 </div>
               </div>
             </header>
+            <div
+              class="sc-jRQBWg gGVfJW"
+            >
+              <section
+                class="sc-gKclnd gHyZyT"
+              >
+                <div
+                  class="text-column"
+                >
+                  <h1>
+                    CRIAMOS LOJAS QUE VENDEM MAIS.
+                  </h1>
+                  <p>
+                    A Jüssi é especialista na criação de lojas usando a plataforma VTEX. Precisa criar sua loja ou migrar de plataforma?
+                  </p>
+                  <button
+                    type="button"
+                  >
+                    Veja nossas soluções
+                  </button>
+                </div>
+                <div
+                  class="cards-column"
+                >
+                  <div
+                    class="sc-iCfMLu jacQNv"
+                  >
+                    <img
+                      alt="Imagem do produto 1"
+                      src="beater.png"
+                    />
+                    <button
+                      class="sc-furwcr izUqLD"
+                    >
+                      Comprar em 2x
+                    </button>
+                  </div>
+                  <div
+                    class="sc-iCfMLu jacQNv"
+                  >
+                    <img
+                      alt="Imagem do produto 2"
+                      src="refrigerator.png"
+                    />
+                    <button
+                      class="sc-furwcr izUqLD"
+                    >
+                      Mais Detalhes
+                    </button>
+                  </div>
+                  <div
+                    class="sc-iCfMLu jacQNv"
+                  >
+                    <img
+                      alt="Imagem do produto 3"
+                      src="whiskey.png"
+                    />
+                    <button
+                      class="sc-furwcr izUqLD"
+                    >
+                      Adicionar à sacola
+                    </button>
+                  </div>
+                </div>
+              </section>
+            </div>
           </main>
         </div>,
         "debug": [Function],

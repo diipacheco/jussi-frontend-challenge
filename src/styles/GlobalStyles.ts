@@ -20,7 +20,10 @@ export default createGlobalStyle`
     background: none;
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
-    line-height: 24px;
+  }
+
+  button {
+    cursor: pointer;
   }
 
   a {
