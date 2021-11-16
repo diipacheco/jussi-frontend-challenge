@@ -7,6 +7,7 @@ import SolutionsSection from '../../components/SolutionsSection';
 import JussiSection from '../../components/JussiSection';
 import ContactInfoSection from '../../components/ContactInfoSection';
 import NewsLetterSection from '../../components/NewsLetterSection';
+import Footer from '../../components/Footer';
 
 import { Container } from './styles';
 
@@ -20,6 +21,7 @@ const Main: React.FC = () => {
       <JussiSection />
       <ContactInfoSection />
       <NewsLetterSection />
+      <Footer />
     </Container>
   );
 };

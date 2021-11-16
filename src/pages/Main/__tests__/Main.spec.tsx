@@ -12,7 +12,7 @@ describe('Main Component', () => {
         "baseElement": <body>
           <div>
             <main
-              class="sc-hBUSln ioUdNH"
+              class="sc-fotOHu fHepFG"
             >
               <header
                 class="sc-gsDKAQ ePwAsU"
@@ -435,12 +435,36 @@ describe('Main Component', () => {
                   </button>
                 </div>
               </section>
+              <footer
+                class="sc-hBUSln JqysT"
+              >
+                <img
+                  alt="WPP Company Logo"
+                  src="wppcompany.svg"
+                />
+                <div
+                  class="icons-container"
+                >
+                  <img
+                    alt="facebook.svg Logo"
+                    src="facebook.svg"
+                  />
+                  <img
+                    alt="instagram.svg Logo"
+                    src="instagram.svg"
+                  />
+                  <img
+                    alt="linkedin.svg Logo"
+                    src="linkedin.svg"
+                  />
+                </div>
+              </footer>
             </main>
           </div>
         </body>,
         "container": <div>
           <main
-            class="sc-hBUSln ioUdNH"
+            class="sc-fotOHu fHepFG"
           >
             <header
               class="sc-gsDKAQ ePwAsU"
@@ -863,6 +887,30 @@ describe('Main Component', () => {
                 </button>
               </div>
             </section>
+            <footer
+              class="sc-hBUSln JqysT"
+            >
+              <img
+                alt="WPP Company Logo"
+                src="wppcompany.svg"
+              />
+              <div
+                class="icons-container"
+              >
+                <img
+                  alt="facebook.svg Logo"
+                  src="facebook.svg"
+                />
+                <img
+                  alt="instagram.svg Logo"
+                  src="instagram.svg"
+                />
+                <img
+                  alt="linkedin.svg Logo"
+                  src="linkedin.svg"
+                />
+              </div>
+            </footer>
           </main>
         </div>,
         "debug": [Function],
