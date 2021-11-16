@@ -2,6 +2,40 @@ import { render } from '@testing-library/react';
 
 import Main from '../index';
 
+jest.mock('../../../hooks/Products', () => ({
+  useProducts: () => ({
+    products: [
+      {
+        id: 1,
+        name: 'Produto 1',
+        imageText: 'P1',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eros imperdiet, gravida arcu eget, varius diam.',
+        features: ['.Feature 1', '.Feature 2', '.Feature 3'],
+      },
+      {
+        id: 2,
+        name: 'Produto 2',
+        imageText: 'P2',
+        description:
+          'Vivamus non diam eu metus eleifend consequat. Vestibulum a tellus lacus.',
+        features: ['.Feature 1', '.Feature 2', '.Feature 3'],
+      },
+    ],
+    searchedProducts: [
+      {
+        id: 1,
+        name: 'Produto 1',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eros imperdiet, gravida arcu eget, varius diam.',
+        features: ['.Feature 1', '.Feature 2', '.Feature 3'],
+      },
+    ],
+    handleFetchProducts: jest.fn(),
+    handleSearchProducts: jest.fn(),
+  }),
+}));
+
 describe('Main Component', () => {
   it('should be able to render the elements tree correctly', () => {
     const wrapper = render(<Main />);
@@ -12,20 +46,20 @@ describe('Main Component', () => {
         "baseElement": <body>
           <div>
             <main
-              class="sc-fotOHu fHepFG"
+              class="sc-fFeiMQ jRdTPF"
             >
               <header
-                class="sc-gsDKAQ ePwAsU"
+                class="sc-dkPtRN esNAWQ"
               >
                 <img
                   alt="Jüssi Logo"
                   src="logoJussiVectorGreen.svg"
                 />
                 <div
-                  class="sc-dkPtRN bBJVyc"
+                  class="sc-hKwDye cbpLsr"
                 >
                   <nav
-                    class="sc-hKwDye dTehpa"
+                    class="sc-eCImPb lneTWW"
                   >
                     <ul>
                       <li>
@@ -45,10 +79,10 @@ describe('Main Component', () => {
                     </ul>
                   </nav>
                   <div
-                    class="sc-eCImPb beGlFc"
+                    class="sc-jRQBWg hliyXH"
                   >
                     <div
-                      class="sc-bdvvtL ieGvXA"
+                      class="sc-bdvvtL fkBhEC"
                     >
                       <input
                         placeholder="Buscar"
@@ -67,6 +101,31 @@ describe('Main Component', () => {
                           d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
                         />
                       </svg>
+                      <div
+                        class="sc-gsDKAQ fgrVXR"
+                      >
+                        <div
+                          class="title"
+                        >
+                          <h4>
+                            Produtos
+                          </h4>
+                        </div>
+                        <ul>
+                          <li>
+                            <div
+                              class="product-name"
+                            >
+                              Produto 1
+                            </div>
+                            <div
+                              class="product-description"
+                            >
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eros imperdiet, gravida arcu eget, varius diam.
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                     <a
                       href="/login"
@@ -101,10 +160,10 @@ describe('Main Component', () => {
                 </div>
               </header>
               <div
-                class="sc-jRQBWg kCXfeA"
+                class="sc-gKclnd dpztIW"
               >
                 <section
-                  class="sc-gKclnd cbwUIy"
+                  class="sc-iCfMLu lcryUz"
                 >
                   <div
                     class="text-column"
@@ -125,40 +184,40 @@ describe('Main Component', () => {
                     class="cards-column"
                   >
                     <div
-                      class="sc-iCfMLu jacQNv"
+                      class="sc-furwcr bzulBY"
                     >
                       <img
                         alt="Imagem do produto 1"
                         src="beater.png"
                       />
                       <button
-                        class="sc-furwcr izUqLD"
+                        class="sc-pVTFL kCxDeE"
                       >
                         Comprar em 2x
                       </button>
                     </div>
                     <div
-                      class="sc-iCfMLu jacQNv"
+                      class="sc-furwcr bzulBY"
                     >
                       <img
                         alt="Imagem do produto 2"
                         src="refrigerator.png"
                       />
                       <button
-                        class="sc-furwcr izUqLD"
+                        class="sc-pVTFL kCxDeE"
                       >
                         Mais Detalhes
                       </button>
                     </div>
                     <div
-                      class="sc-iCfMLu jacQNv"
+                      class="sc-furwcr bzulBY"
                     >
                       <img
                         alt="Imagem do produto 3"
                         src="whiskey.png"
                       />
                       <button
-                        class="sc-furwcr izUqLD"
+                        class="sc-pVTFL kCxDeE"
                       >
                         Adicionar à sacola
                       </button>
@@ -167,7 +226,7 @@ describe('Main Component', () => {
                 </section>
               </div>
               <div
-                class="sc-pVTFL fRuXIH"
+                class="sc-jrQzAO iQcgzO"
               >
                 <p>
                   Nossas principais lojas VTEX
@@ -194,10 +253,10 @@ describe('Main Component', () => {
                 />
               </div>
               <section
-                class="sc-iqseJM ehDDxL"
+                class="sc-crHmcD kUqLil"
               >
                 <div
-                  class="sc-crHmcD gvhnUu"
+                  class="sc-egiyK ccKLzY"
                 >
                   <h1>
                     <strong>
@@ -212,24 +271,24 @@ describe('Main Component', () => {
                     class="card-container"
                   >
                     <div
-                      class="sc-jrQzAO gxqRcI"
+                      class="sc-kDTinF ObFII"
                     >
                       <div
-                        class="sc-kDTinF gkSQG"
+                        class="sc-iqseJM cYBgNp"
                       >
                         <strong>
                           P1
                         </strong>
                       </div>
                       <p
-                        class="product-title"
+                        class="product-name"
                       >
-                        Nome do Produto #1
+                        Produto 1
                       </p>
                       <p
                         class="product-description"
                       >
-                        Descrição do produto #1
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eros imperdiet, gravida arcu eget, varius diam.
                       </p>
                       <ul
                         class="features-list"
@@ -251,102 +310,24 @@ describe('Main Component', () => {
                       </button>
                     </div>
                     <div
-                      class="sc-jrQzAO gxqRcI"
+                      class="sc-kDTinF ObFII"
                     >
                       <div
-                        class="sc-kDTinF gkSQG"
+                        class="sc-iqseJM cYBgNp"
                       >
                         <strong>
                           P2
                         </strong>
                       </div>
                       <p
-                        class="product-title"
+                        class="product-name"
                       >
-                        Nome do Produto #2
+                        Produto 2
                       </p>
                       <p
                         class="product-description"
                       >
-                        Descrição do produto #2
-                      </p>
-                      <ul
-                        class="features-list"
-                      >
-                        <li>
-                          .Feature 1
-                        </li>
-                        <li>
-                          .Feature 2
-                        </li>
-                        <li>
-                          .Feature 3
-                        </li>
-                      </ul>
-                      <button
-                        type="button"
-                      >
-                        Ver solução
-                      </button>
-                    </div>
-                    <div
-                      class="sc-jrQzAO gxqRcI"
-                    >
-                      <div
-                        class="sc-kDTinF gkSQG"
-                      >
-                        <strong>
-                          P3
-                        </strong>
-                      </div>
-                      <p
-                        class="product-title"
-                      >
-                        Nome do Produto #3
-                      </p>
-                      <p
-                        class="product-description"
-                      >
-                        Descrição do produto #3
-                      </p>
-                      <ul
-                        class="features-list"
-                      >
-                        <li>
-                          .Feature 1
-                        </li>
-                        <li>
-                          .Feature 2
-                        </li>
-                        <li>
-                          .Feature 3
-                        </li>
-                      </ul>
-                      <button
-                        type="button"
-                      >
-                        Ver solução
-                      </button>
-                    </div>
-                    <div
-                      class="sc-jrQzAO gxqRcI"
-                    >
-                      <div
-                        class="sc-kDTinF gkSQG"
-                      >
-                        <strong>
-                          P4
-                        </strong>
-                      </div>
-                      <p
-                        class="product-title"
-                      >
-                        Nome do Produto #4
-                      </p>
-                      <p
-                        class="product-description"
-                      >
-                        Descrição do produto #4
+                        Vivamus non diam eu metus eleifend consequat. Vestibulum a tellus lacus.
                       </p>
                       <ul
                         class="features-list"
@@ -371,7 +352,7 @@ describe('Main Component', () => {
                 </div>
               </section>
               <section
-                class="sc-egiyK ifyVFE"
+                class="sc-bqiRlB erzGhz"
               >
                 <div
                   class="text-column"
@@ -401,7 +382,7 @@ describe('Main Component', () => {
                 />
               </section>
               <section
-                class="sc-bqiRlB gAghlo"
+                class="sc-ksdxgE iiCrGQ"
               >
                 <h1>
                   ESSA LOJA FOI CONSTRUÍDA USANDO UMAS DAS NOSSAS SOLUÇÕES DA PLATAFORMA VTEX. 
@@ -416,7 +397,7 @@ describe('Main Component', () => {
                 </p>
               </section>
               <section
-                class="sc-ksdxgE hOCgDr"
+                class="sc-hBUSln fbaYJb"
               >
                 <h1>
                   RECEBA NOVIDADES DA NOSSA ÁREA DE PRODUTOS DIGITAIS.
@@ -436,7 +417,7 @@ describe('Main Component', () => {
                 </div>
               </section>
               <footer
-                class="sc-hBUSln JqysT"
+                class="sc-fotOHu fREEpi"
               >
                 <img
                   alt="WPP Company Logo"
@@ -464,20 +445,20 @@ describe('Main Component', () => {
         </body>,
         "container": <div>
           <main
-            class="sc-fotOHu fHepFG"
+            class="sc-fFeiMQ jRdTPF"
           >
             <header
-              class="sc-gsDKAQ ePwAsU"
+              class="sc-dkPtRN esNAWQ"
             >
               <img
                 alt="Jüssi Logo"
                 src="logoJussiVectorGreen.svg"
               />
               <div
-                class="sc-dkPtRN bBJVyc"
+                class="sc-hKwDye cbpLsr"
               >
                 <nav
-                  class="sc-hKwDye dTehpa"
+                  class="sc-eCImPb lneTWW"
                 >
                   <ul>
                     <li>
@@ -497,10 +478,10 @@ describe('Main Component', () => {
                   </ul>
                 </nav>
                 <div
-                  class="sc-eCImPb beGlFc"
+                  class="sc-jRQBWg hliyXH"
                 >
                   <div
-                    class="sc-bdvvtL ieGvXA"
+                    class="sc-bdvvtL fkBhEC"
                   >
                     <input
                       placeholder="Buscar"
@@ -519,6 +500,31 @@ describe('Main Component', () => {
                         d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
                       />
                     </svg>
+                    <div
+                      class="sc-gsDKAQ fgrVXR"
+                    >
+                      <div
+                        class="title"
+                      >
+                        <h4>
+                          Produtos
+                        </h4>
+                      </div>
+                      <ul>
+                        <li>
+                          <div
+                            class="product-name"
+                          >
+                            Produto 1
+                          </div>
+                          <div
+                            class="product-description"
+                          >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eros imperdiet, gravida arcu eget, varius diam.
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                   <a
                     href="/login"
@@ -553,10 +559,10 @@ describe('Main Component', () => {
               </div>
             </header>
             <div
-              class="sc-jRQBWg kCXfeA"
+              class="sc-gKclnd dpztIW"
             >
               <section
-                class="sc-gKclnd cbwUIy"
+                class="sc-iCfMLu lcryUz"
               >
                 <div
                   class="text-column"
@@ -577,40 +583,40 @@ describe('Main Component', () => {
                   class="cards-column"
                 >
                   <div
-                    class="sc-iCfMLu jacQNv"
+                    class="sc-furwcr bzulBY"
                   >
                     <img
                       alt="Imagem do produto 1"
                       src="beater.png"
                     />
                     <button
-                      class="sc-furwcr izUqLD"
+                      class="sc-pVTFL kCxDeE"
                     >
                       Comprar em 2x
                     </button>
                   </div>
                   <div
-                    class="sc-iCfMLu jacQNv"
+                    class="sc-furwcr bzulBY"
                   >
                     <img
                       alt="Imagem do produto 2"
                       src="refrigerator.png"
                     />
                     <button
-                      class="sc-furwcr izUqLD"
+                      class="sc-pVTFL kCxDeE"
                     >
                       Mais Detalhes
                     </button>
                   </div>
                   <div
-                    class="sc-iCfMLu jacQNv"
+                    class="sc-furwcr bzulBY"
                   >
                     <img
                       alt="Imagem do produto 3"
                       src="whiskey.png"
                     />
                     <button
-                      class="sc-furwcr izUqLD"
+                      class="sc-pVTFL kCxDeE"
                     >
                       Adicionar à sacola
                     </button>
@@ -619,7 +625,7 @@ describe('Main Component', () => {
               </section>
             </div>
             <div
-              class="sc-pVTFL fRuXIH"
+              class="sc-jrQzAO iQcgzO"
             >
               <p>
                 Nossas principais lojas VTEX
@@ -646,10 +652,10 @@ describe('Main Component', () => {
               />
             </div>
             <section
-              class="sc-iqseJM ehDDxL"
+              class="sc-crHmcD kUqLil"
             >
               <div
-                class="sc-crHmcD gvhnUu"
+                class="sc-egiyK ccKLzY"
               >
                 <h1>
                   <strong>
@@ -664,24 +670,24 @@ describe('Main Component', () => {
                   class="card-container"
                 >
                   <div
-                    class="sc-jrQzAO gxqRcI"
+                    class="sc-kDTinF ObFII"
                   >
                     <div
-                      class="sc-kDTinF gkSQG"
+                      class="sc-iqseJM cYBgNp"
                     >
                       <strong>
                         P1
                       </strong>
                     </div>
                     <p
-                      class="product-title"
+                      class="product-name"
                     >
-                      Nome do Produto #1
+                      Produto 1
                     </p>
                     <p
                       class="product-description"
                     >
-                      Descrição do produto #1
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eros imperdiet, gravida arcu eget, varius diam.
                     </p>
                     <ul
                       class="features-list"
@@ -703,102 +709,24 @@ describe('Main Component', () => {
                     </button>
                   </div>
                   <div
-                    class="sc-jrQzAO gxqRcI"
+                    class="sc-kDTinF ObFII"
                   >
                     <div
-                      class="sc-kDTinF gkSQG"
+                      class="sc-iqseJM cYBgNp"
                     >
                       <strong>
                         P2
                       </strong>
                     </div>
                     <p
-                      class="product-title"
+                      class="product-name"
                     >
-                      Nome do Produto #2
+                      Produto 2
                     </p>
                     <p
                       class="product-description"
                     >
-                      Descrição do produto #2
-                    </p>
-                    <ul
-                      class="features-list"
-                    >
-                      <li>
-                        .Feature 1
-                      </li>
-                      <li>
-                        .Feature 2
-                      </li>
-                      <li>
-                        .Feature 3
-                      </li>
-                    </ul>
-                    <button
-                      type="button"
-                    >
-                      Ver solução
-                    </button>
-                  </div>
-                  <div
-                    class="sc-jrQzAO gxqRcI"
-                  >
-                    <div
-                      class="sc-kDTinF gkSQG"
-                    >
-                      <strong>
-                        P3
-                      </strong>
-                    </div>
-                    <p
-                      class="product-title"
-                    >
-                      Nome do Produto #3
-                    </p>
-                    <p
-                      class="product-description"
-                    >
-                      Descrição do produto #3
-                    </p>
-                    <ul
-                      class="features-list"
-                    >
-                      <li>
-                        .Feature 1
-                      </li>
-                      <li>
-                        .Feature 2
-                      </li>
-                      <li>
-                        .Feature 3
-                      </li>
-                    </ul>
-                    <button
-                      type="button"
-                    >
-                      Ver solução
-                    </button>
-                  </div>
-                  <div
-                    class="sc-jrQzAO gxqRcI"
-                  >
-                    <div
-                      class="sc-kDTinF gkSQG"
-                    >
-                      <strong>
-                        P4
-                      </strong>
-                    </div>
-                    <p
-                      class="product-title"
-                    >
-                      Nome do Produto #4
-                    </p>
-                    <p
-                      class="product-description"
-                    >
-                      Descrição do produto #4
+                      Vivamus non diam eu metus eleifend consequat. Vestibulum a tellus lacus.
                     </p>
                     <ul
                       class="features-list"
@@ -823,7 +751,7 @@ describe('Main Component', () => {
               </div>
             </section>
             <section
-              class="sc-egiyK ifyVFE"
+              class="sc-bqiRlB erzGhz"
             >
               <div
                 class="text-column"
@@ -853,7 +781,7 @@ describe('Main Component', () => {
               />
             </section>
             <section
-              class="sc-bqiRlB gAghlo"
+              class="sc-ksdxgE iiCrGQ"
             >
               <h1>
                 ESSA LOJA FOI CONSTRUÍDA USANDO UMAS DAS NOSSAS SOLUÇÕES DA PLATAFORMA VTEX. 
@@ -868,7 +796,7 @@ describe('Main Component', () => {
               </p>
             </section>
             <section
-              class="sc-ksdxgE hOCgDr"
+              class="sc-hBUSln fbaYJb"
             >
               <h1>
                 RECEBA NOVIDADES DA NOSSA ÁREA DE PRODUTOS DIGITAIS.
@@ -888,7 +816,7 @@ describe('Main Component', () => {
               </div>
             </section>
             <footer
-              class="sc-hBUSln JqysT"
+              class="sc-fotOHu fREEpi"
             >
               <img
                 alt="WPP Company Logo"

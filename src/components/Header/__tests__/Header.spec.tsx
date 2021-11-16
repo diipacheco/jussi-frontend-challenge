@@ -12,17 +12,17 @@ describe('Header Component', () => {
         "baseElement": <body>
           <div>
             <header
-              class="sc-gsDKAQ ePwAsU"
+              class="sc-dkPtRN esNAWQ"
             >
               <img
                 alt="Jüssi Logo"
                 src="logoJussiVectorGreen.svg"
               />
               <div
-                class="sc-dkPtRN bBJVyc"
+                class="sc-hKwDye cbpLsr"
               >
                 <nav
-                  class="sc-hKwDye dTehpa"
+                  class="sc-eCImPb lneTWW"
                 >
                   <ul>
                     <li>
@@ -42,10 +42,10 @@ describe('Header Component', () => {
                   </ul>
                 </nav>
                 <div
-                  class="sc-eCImPb beGlFc"
+                  class="sc-jRQBWg hliyXH"
                 >
                   <div
-                    class="sc-bdvvtL ieGvXA"
+                    class="sc-bdvvtL fkBhEC"
                   >
                     <input
                       placeholder="Buscar"
@@ -101,17 +101,17 @@ describe('Header Component', () => {
         </body>,
         "container": <div>
           <header
-            class="sc-gsDKAQ ePwAsU"
+            class="sc-dkPtRN esNAWQ"
           >
             <img
               alt="Jüssi Logo"
               src="logoJussiVectorGreen.svg"
             />
             <div
-              class="sc-dkPtRN bBJVyc"
+              class="sc-hKwDye cbpLsr"
             >
               <nav
-                class="sc-hKwDye dTehpa"
+                class="sc-eCImPb lneTWW"
               >
                 <ul>
                   <li>
@@ -131,10 +131,10 @@ describe('Header Component', () => {
                 </ul>
               </nav>
               <div
-                class="sc-eCImPb beGlFc"
+                class="sc-jRQBWg hliyXH"
               >
                 <div
-                  class="sc-bdvvtL ieGvXA"
+                  class="sc-bdvvtL fkBhEC"
                 >
                   <input
                     placeholder="Buscar"

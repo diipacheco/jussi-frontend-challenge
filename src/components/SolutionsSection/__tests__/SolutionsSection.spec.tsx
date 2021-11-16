@@ -2,6 +2,40 @@ import { render } from '@testing-library/react';
 
 import SolutionsSection from '../index';
 
+jest.mock('../../../hooks/Products', () => ({
+  useProducts: () => ({
+    products: [
+      {
+        id: 1,
+        name: 'Produto 1',
+        imageText: 'P1',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eros imperdiet, gravida arcu eget, varius diam.',
+        features: ['.Feature 1', '.Feature 2', '.Feature 3'],
+      },
+      {
+        id: 2,
+        name: 'Produto 2',
+        imageText: 'P2',
+        description:
+          'Vivamus non diam eu metus eleifend consequat. Vestibulum a tellus lacus.',
+        features: ['.Feature 1', '.Feature 2', '.Feature 3'],
+      },
+    ],
+    searchedProducts: [
+      {
+        id: 1,
+        name: 'Produto 1',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eros imperdiet, gravida arcu eget, varius diam.',
+        features: ['.Feature 1', '.Feature 2', '.Feature 3'],
+      },
+    ],
+    handleFetchProducts: jest.fn(),
+    handleSearchProducts: jest.fn(),
+  }),
+}));
+
 describe('SolutionsSection Component', () => {
   it('should be able to render the elements tree correctly', () => {
     const wrapper = render(<SolutionsSection />);
@@ -30,7 +64,7 @@ describe('SolutionsSection Component', () => {
                   class="card-container"
                 >
                   <div
-                    class="sc-bdvvtL inQXij"
+                    class="sc-bdvvtL bOQnWo"
                   >
                     <div
                       class="sc-gsDKAQ iyKXwr"
@@ -40,14 +74,14 @@ describe('SolutionsSection Component', () => {
                       </strong>
                     </div>
                     <p
-                      class="product-title"
+                      class="product-name"
                     >
-                      Nome do Produto #1
+                      Produto 1
                     </p>
                     <p
                       class="product-description"
                     >
-                      Descrição do produto #1
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eros imperdiet, gravida arcu eget, varius diam.
                     </p>
                     <ul
                       class="features-list"
@@ -69,7 +103,7 @@ describe('SolutionsSection Component', () => {
                     </button>
                   </div>
                   <div
-                    class="sc-bdvvtL inQXij"
+                    class="sc-bdvvtL bOQnWo"
                   >
                     <div
                       class="sc-gsDKAQ iyKXwr"
@@ -79,92 +113,14 @@ describe('SolutionsSection Component', () => {
                       </strong>
                     </div>
                     <p
-                      class="product-title"
+                      class="product-name"
                     >
-                      Nome do Produto #2
+                      Produto 2
                     </p>
                     <p
                       class="product-description"
                     >
-                      Descrição do produto #2
-                    </p>
-                    <ul
-                      class="features-list"
-                    >
-                      <li>
-                        .Feature 1
-                      </li>
-                      <li>
-                        .Feature 2
-                      </li>
-                      <li>
-                        .Feature 3
-                      </li>
-                    </ul>
-                    <button
-                      type="button"
-                    >
-                      Ver solução
-                    </button>
-                  </div>
-                  <div
-                    class="sc-bdvvtL inQXij"
-                  >
-                    <div
-                      class="sc-gsDKAQ iyKXwr"
-                    >
-                      <strong>
-                        P3
-                      </strong>
-                    </div>
-                    <p
-                      class="product-title"
-                    >
-                      Nome do Produto #3
-                    </p>
-                    <p
-                      class="product-description"
-                    >
-                      Descrição do produto #3
-                    </p>
-                    <ul
-                      class="features-list"
-                    >
-                      <li>
-                        .Feature 1
-                      </li>
-                      <li>
-                        .Feature 2
-                      </li>
-                      <li>
-                        .Feature 3
-                      </li>
-                    </ul>
-                    <button
-                      type="button"
-                    >
-                      Ver solução
-                    </button>
-                  </div>
-                  <div
-                    class="sc-bdvvtL inQXij"
-                  >
-                    <div
-                      class="sc-gsDKAQ iyKXwr"
-                    >
-                      <strong>
-                        P4
-                      </strong>
-                    </div>
-                    <p
-                      class="product-title"
-                    >
-                      Nome do Produto #4
-                    </p>
-                    <p
-                      class="product-description"
-                    >
-                      Descrição do produto #4
+                      Vivamus non diam eu metus eleifend consequat. Vestibulum a tellus lacus.
                     </p>
                     <ul
                       class="features-list"
@@ -210,7 +166,7 @@ describe('SolutionsSection Component', () => {
                 class="card-container"
               >
                 <div
-                  class="sc-bdvvtL inQXij"
+                  class="sc-bdvvtL bOQnWo"
                 >
                   <div
                     class="sc-gsDKAQ iyKXwr"
@@ -220,14 +176,14 @@ describe('SolutionsSection Component', () => {
                     </strong>
                   </div>
                   <p
-                    class="product-title"
+                    class="product-name"
                   >
-                    Nome do Produto #1
+                    Produto 1
                   </p>
                   <p
                     class="product-description"
                   >
-                    Descrição do produto #1
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac eros imperdiet, gravida arcu eget, varius diam.
                   </p>
                   <ul
                     class="features-list"
@@ -249,7 +205,7 @@ describe('SolutionsSection Component', () => {
                   </button>
                 </div>
                 <div
-                  class="sc-bdvvtL inQXij"
+                  class="sc-bdvvtL bOQnWo"
                 >
                   <div
                     class="sc-gsDKAQ iyKXwr"
@@ -259,92 +215,14 @@ describe('SolutionsSection Component', () => {
                     </strong>
                   </div>
                   <p
-                    class="product-title"
+                    class="product-name"
                   >
-                    Nome do Produto #2
+                    Produto 2
                   </p>
                   <p
                     class="product-description"
                   >
-                    Descrição do produto #2
-                  </p>
-                  <ul
-                    class="features-list"
-                  >
-                    <li>
-                      .Feature 1
-                    </li>
-                    <li>
-                      .Feature 2
-                    </li>
-                    <li>
-                      .Feature 3
-                    </li>
-                  </ul>
-                  <button
-                    type="button"
-                  >
-                    Ver solução
-                  </button>
-                </div>
-                <div
-                  class="sc-bdvvtL inQXij"
-                >
-                  <div
-                    class="sc-gsDKAQ iyKXwr"
-                  >
-                    <strong>
-                      P3
-                    </strong>
-                  </div>
-                  <p
-                    class="product-title"
-                  >
-                    Nome do Produto #3
-                  </p>
-                  <p
-                    class="product-description"
-                  >
-                    Descrição do produto #3
-                  </p>
-                  <ul
-                    class="features-list"
-                  >
-                    <li>
-                      .Feature 1
-                    </li>
-                    <li>
-                      .Feature 2
-                    </li>
-                    <li>
-                      .Feature 3
-                    </li>
-                  </ul>
-                  <button
-                    type="button"
-                  >
-                    Ver solução
-                  </button>
-                </div>
-                <div
-                  class="sc-bdvvtL inQXij"
-                >
-                  <div
-                    class="sc-gsDKAQ iyKXwr"
-                  >
-                    <strong>
-                      P4
-                    </strong>
-                  </div>
-                  <p
-                    class="product-title"
-                  >
-                    Nome do Produto #4
-                  </p>
-                  <p
-                    class="product-description"
-                  >
-                    Descrição do produto #4
+                    Vivamus non diam eu metus eleifend consequat. Vestibulum a tellus lacus.
                   </p>
                   <ul
                     class="features-list"

@@ -7,7 +7,7 @@ describe('Card Component', () => {
     const wrapper = render(
       <Card
         imageText="p1"
-        title="Nome do Produto #1"
+        name="Nome do Produto #1"
         description="Descrição do produto #1"
         features={['.Feature 1', '.Feature 2', '.Feature 3']}
       />,
@@ -19,7 +19,7 @@ describe('Card Component', () => {
         "baseElement": <body>
           <div>
             <div
-              class="sc-bdvvtL inQXij"
+              class="sc-bdvvtL bOQnWo"
             >
               <div
                 class="sc-gsDKAQ iyKXwr"
@@ -29,7 +29,7 @@ describe('Card Component', () => {
                 </strong>
               </div>
               <p
-                class="product-title"
+                class="product-name"
               >
                 Nome do Produto #1
               </p>
@@ -61,7 +61,7 @@ describe('Card Component', () => {
         </body>,
         "container": <div>
           <div
-            class="sc-bdvvtL inQXij"
+            class="sc-bdvvtL bOQnWo"
           >
             <div
               class="sc-gsDKAQ iyKXwr"
@@ -71,7 +71,7 @@ describe('Card Component', () => {
               </strong>
             </div>
             <p
-              class="product-title"
+              class="product-name"
             >
               Nome do Produto #1
             </p>

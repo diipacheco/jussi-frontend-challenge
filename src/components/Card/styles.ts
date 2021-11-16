@@ -14,7 +14,7 @@ export const Container = styled.div`
   border-radius: 4px;
   margin-top: 24px;
 
-  .product-title {
+  .product-name {
     margin-top: 53px;
   }
 

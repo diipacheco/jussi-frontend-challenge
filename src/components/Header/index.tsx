@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { CgShoppingCart } from 'react-icons/cg';
+import { useDebouncedCallback } from 'use-debounce';
 
+import { useProducts } from '../../hooks/Products';
 import logo from '../../assets/logoJussiVectorGreen.svg';
 
 import SearchBar from '../SearchBar';

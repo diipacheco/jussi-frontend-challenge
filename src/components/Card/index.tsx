@@ -4,19 +4,19 @@ import { Container, ProductImage } from './styles';
 
 interface ICard {
   imageText: string;
-  title: string;
+  name: string;
   description: string;
   features: string[];
 }
 
-const Card: React.FC<ICard> = ({ imageText, title, description, features }) => {
+const Card: React.FC<ICard> = ({ imageText, name, description, features }) => {
   return (
     <Container>
       <ProductImage>
         <strong>{imageText.toUpperCase()}</strong>
       </ProductImage>
 
-      <p className="product-title">{title}</p>
+      <p className="product-name">{name}</p>
       <p className="product-description">{description}</p>
 
       <ul className="features-list">
