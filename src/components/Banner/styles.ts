@@ -3,20 +3,19 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
 
   width: 100%;
-  padding: 80px 166px;
+  height: 560px;
 
   background-color: var(--green);
 `;
 
 export const Content = styled.section`
-  display: grid;
+  display: flex;
+  justify-content: center;
 
   width: 100%;
-
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 200px;
 
   .text-column {
     display: flex;
@@ -53,6 +52,7 @@ export const Content = styled.section`
   .cards-column {
     display: flex;
     justify-content: center;
+    width: 40%;
 
     position: relative;
 
@@ -60,13 +60,15 @@ export const Content = styled.section`
       top: -40px;
       z-index: 2;
     }
+
     div:nth-child(2) {
       right: 540px;
-      left: 110px;
+      left: 148px;
       top: 100px;
     }
+
     div:nth-child(3) {
-      right: 110px;
+      right: 160px;
       top: 160px;
     }
   }

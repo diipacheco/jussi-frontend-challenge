@@ -101,10 +101,10 @@ describe('Main Component', () => {
                 </div>
               </header>
               <div
-                class="sc-jRQBWg gGVfJW"
+                class="sc-jRQBWg kCXfeA"
               >
                 <section
-                  class="sc-gKclnd gHyZyT"
+                  class="sc-gKclnd cbwUIy"
                 >
                   <div
                     class="text-column"
@@ -167,7 +167,7 @@ describe('Main Component', () => {
                 </section>
               </div>
               <div
-                class="sc-pVTFL gta-dls"
+                class="sc-pVTFL fRuXIH"
               >
                 <p>
                   Nossas principais lojas VTEX
@@ -494,10 +494,10 @@ describe('Main Component', () => {
               </div>
             </header>
             <div
-              class="sc-jRQBWg gGVfJW"
+              class="sc-jRQBWg kCXfeA"
             >
               <section
-                class="sc-gKclnd gHyZyT"
+                class="sc-gKclnd cbwUIy"
               >
                 <div
                   class="text-column"
@@ -560,7 +560,7 @@ describe('Main Component', () => {
               </section>
             </div>
             <div
-              class="sc-pVTFL gta-dls"
+              class="sc-pVTFL fRuXIH"
             >
               <p>
                 Nossas principais lojas VTEX

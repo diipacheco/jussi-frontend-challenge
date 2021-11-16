@@ -12,10 +12,10 @@ describe('Banner Component', () => {
         "baseElement": <body>
           <div>
             <div
-              class="sc-bdvvtL eKnNvf"
+              class="sc-bdvvtL bjYjZt"
             >
               <section
-                class="sc-gsDKAQ dytrGp"
+                class="sc-gsDKAQ bhqpxM"
               >
                 <div
                   class="text-column"
@@ -81,10 +81,10 @@ describe('Banner Component', () => {
         </body>,
         "container": <div>
           <div
-            class="sc-bdvvtL eKnNvf"
+            class="sc-bdvvtL bjYjZt"
           >
             <section
-              class="sc-gsDKAQ dytrGp"
+              class="sc-gsDKAQ bhqpxM"
             >
               <div
                 class="text-column"

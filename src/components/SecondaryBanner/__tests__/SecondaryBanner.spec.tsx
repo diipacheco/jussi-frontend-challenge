@@ -12,7 +12,7 @@ describe('SecondaryBanner Component', () => {
         "baseElement": <body>
           <div>
             <div
-              class="sc-bdvvtL jeCutC"
+              class="sc-bdvvtL gjUdJ"
             >
               <p>
                 Nossas principais lojas VTEX
@@ -42,7 +42,7 @@ describe('SecondaryBanner Component', () => {
         </body>,
         "container": <div>
           <div
-            class="sc-bdvvtL jeCutC"
+            class="sc-bdvvtL gjUdJ"
           >
             <p>
               Nossas principais lojas VTEX
