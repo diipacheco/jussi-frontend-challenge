@@ -12,7 +12,7 @@ describe('Main Component', () => {
         "baseElement": <body>
           <div>
             <main
-              class="sc-bqiRlB dPLZUn"
+              class="sc-ksdxgE eKpHrr"
             >
               <header
                 class="sc-gsDKAQ ePwAsU"
@@ -400,12 +400,27 @@ describe('Main Component', () => {
                   class="grey-background"
                 />
               </section>
+              <section
+                class="sc-bqiRlB gAghlo"
+              >
+                <h1>
+                  ESSA LOJA FOI CONSTRUÍDA USANDO UMAS DAS NOSSAS SOLUÇÕES DA PLATAFORMA VTEX. 
+                  <br />
+                  TENHA A SUA.
+                </h1>
+                <small>
+                  Entre em contato
+                </small>
+                <p>
+                  comercial@jussi.com.br
+                </p>
+              </section>
             </main>
           </div>
         </body>,
         "container": <div>
           <main
-            class="sc-bqiRlB dPLZUn"
+            class="sc-ksdxgE eKpHrr"
           >
             <header
               class="sc-gsDKAQ ePwAsU"
@@ -792,6 +807,21 @@ describe('Main Component', () => {
               <div
                 class="grey-background"
               />
+            </section>
+            <section
+              class="sc-bqiRlB gAghlo"
+            >
+              <h1>
+                ESSA LOJA FOI CONSTRUÍDA USANDO UMAS DAS NOSSAS SOLUÇÕES DA PLATAFORMA VTEX. 
+                <br />
+                TENHA A SUA.
+              </h1>
+              <small>
+                Entre em contato
+              </small>
+              <p>
+                comercial@jussi.com.br
+              </p>
             </section>
           </main>
         </div>,
