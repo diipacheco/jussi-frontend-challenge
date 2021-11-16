@@ -12,7 +12,7 @@ describe('Main Component', () => {
         "baseElement": <body>
           <div>
             <main
-              class="sc-egiyK cCOSKA"
+              class="sc-bqiRlB dPLZUn"
             >
               <header
                 class="sc-gsDKAQ ePwAsU"
@@ -370,12 +370,42 @@ describe('Main Component', () => {
                   </div>
                 </div>
               </section>
+              <section
+                class="sc-egiyK ifyVFE"
+              >
+                <div
+                  class="text-column"
+                >
+                  <h1>
+                    OLÁ, SOMOS A JÜSSI
+                  </h1>
+                  <p>
+                    A Jüssi é uma agência integrante do grupo global WPP que vem há 10 anos consolidando o pensamento voltado para produtos e resolução de problemas. Nosso área dedicada exclusivamente para Produtos Digitais é organizada em 6 especialidades: Product Managamenet, User Experience Design, SEO, Tecnologia, Agile e User Behavior Analytics.
+                  </p>
+                  <button
+                    type="button"
+                  >
+                    Conheça a Jüssi
+                  </button>
+                </div>
+                <div
+                  class="image-column"
+                >
+                  <img
+                    alt="Imagem do escritório da Jüssi"
+                    src="image-jussi.png"
+                  />
+                </div>
+                <div
+                  class="grey-background"
+                />
+              </section>
             </main>
           </div>
         </body>,
         "container": <div>
           <main
-            class="sc-egiyK cCOSKA"
+            class="sc-bqiRlB dPLZUn"
           >
             <header
               class="sc-gsDKAQ ePwAsU"
@@ -732,6 +762,36 @@ describe('Main Component', () => {
                   </div>
                 </div>
               </div>
+            </section>
+            <section
+              class="sc-egiyK ifyVFE"
+            >
+              <div
+                class="text-column"
+              >
+                <h1>
+                  OLÁ, SOMOS A JÜSSI
+                </h1>
+                <p>
+                  A Jüssi é uma agência integrante do grupo global WPP que vem há 10 anos consolidando o pensamento voltado para produtos e resolução de problemas. Nosso área dedicada exclusivamente para Produtos Digitais é organizada em 6 especialidades: Product Managamenet, User Experience Design, SEO, Tecnologia, Agile e User Behavior Analytics.
+                </p>
+                <button
+                  type="button"
+                >
+                  Conheça a Jüssi
+                </button>
+              </div>
+              <div
+                class="image-column"
+              >
+                <img
+                  alt="Imagem do escritório da Jüssi"
+                  src="image-jussi.png"
+                />
+              </div>
+              <div
+                class="grey-background"
+              />
             </section>
           </main>
         </div>,
