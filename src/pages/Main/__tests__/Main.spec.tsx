@@ -12,7 +12,7 @@ describe('Main Component', () => {
         "baseElement": <body>
           <div>
             <main
-              class="sc-ksdxgE eKpHrr"
+              class="sc-hBUSln ioUdNH"
             >
               <header
                 class="sc-gsDKAQ ePwAsU"
@@ -415,12 +415,32 @@ describe('Main Component', () => {
                   comercial@jussi.com.br
                 </p>
               </section>
+              <section
+                class="sc-ksdxgE hOCgDr"
+              >
+                <h1>
+                  RECEBA NOVIDADES DA NOSSA ÁREA DE PRODUTOS DIGITAIS.
+                </h1>
+                <div
+                  class="input-container"
+                >
+                  <input
+                    placeholder="Digite seu email"
+                    type="text"
+                  />
+                  <button
+                    type="button"
+                  >
+                    CADASTRAR
+                  </button>
+                </div>
+              </section>
             </main>
           </div>
         </body>,
         "container": <div>
           <main
-            class="sc-ksdxgE eKpHrr"
+            class="sc-hBUSln ioUdNH"
           >
             <header
               class="sc-gsDKAQ ePwAsU"
@@ -822,6 +842,26 @@ describe('Main Component', () => {
               <p>
                 comercial@jussi.com.br
               </p>
+            </section>
+            <section
+              class="sc-ksdxgE hOCgDr"
+            >
+              <h1>
+                RECEBA NOVIDADES DA NOSSA ÁREA DE PRODUTOS DIGITAIS.
+              </h1>
+              <div
+                class="input-container"
+              >
+                <input
+                  placeholder="Digite seu email"
+                  type="text"
+                />
+                <button
+                  type="button"
+                >
+                  CADASTRAR
+                </button>
+              </div>
             </section>
           </main>
         </div>,
